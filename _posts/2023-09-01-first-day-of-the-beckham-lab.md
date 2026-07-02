@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First day of the Beckham lab"
-date: 2023-09-01
+date: 2023-09-11
 image: /assets/images/2023-09-akta-pure.jpg
 ---
 
