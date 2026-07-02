@@ -26,7 +26,7 @@ pi:
       - label: Bluesky
         url: https://bsky.app/profile/kshbeckham.bsky.social
 
-postdocs:
+#postdocs:
   - name: "[Postdoc name]"
     role: Postdoctoral Researcher
     photo:
@@ -34,19 +34,18 @@ postdocs:
       Short bio: research focus, background, and a line of personality.
 
 phd:
-  - name: "[Student name]"
+  - name: "[Aaron Scott]"
     role: PhD Student
     photo:
     bio: >-
-      Working on PiuB, a multidomain transmembrane protein involved in bacterial
-      iron uptake, using cryo-EM.
-  - name: "[Student name]"
+      Working on mycobacterial outermembrane proteins using cryo-EM.
+  - name: "[Harry Flower]"
     role: PhD Student
     photo:
     bio: >-
-      Short bio and project summary goes here.
+     Working on mycobacterial outermembrane proteins using cryo-EM. 
 
-masters:
+#masters:
   - name: "[Student name]"
     role: MSc / MBiol Student
     photo:
