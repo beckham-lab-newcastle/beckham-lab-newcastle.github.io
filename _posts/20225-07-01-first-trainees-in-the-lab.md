@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First trainees in the lab"
-date: 2024-08-01
+date: 2025-07-01
 image: /assets/images/first-trainees.jpg
 ---
 
