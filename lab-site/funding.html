@@ -1,0 +1,36 @@
+---
+layout: default
+title: Funding
+permalink: /funding/
+description: Funders and awards supporting the Beckham Lab.
+---
+
+<div class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow mono">Funding</div>
+    <h1>With thanks to our funders</h1>
+    <p>Our research is made possible by the support of these organisations.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="funders">
+      {% for f in site.data.funding.funders %}
+        <div class="funder">
+          {% if f.logo %}<img src="{{ '/assets/images/' | append: f.logo | relative_url }}" alt="{{ f.name }}">
+          {% else %}{{ f.name }}{% if f.note %}<small>{{ f.note }}</small>{% endif %}{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if site.data.funding.awards and site.data.funding.awards.size > 0 %}
+    <h2 style="margin-bottom:24px;">Awards &amp; fellowships</h2>
+    <ul class="awards">
+      {% for a in site.data.funding.awards %}
+        <li><span class="ayear">{{ a.year }}</span><span class="atext">{{ a.text }}</span></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</section>

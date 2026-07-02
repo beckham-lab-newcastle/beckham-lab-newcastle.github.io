@@ -1,0 +1,54 @@
+# ============================================================
+#  Group members
+#  To add someone: copy a block, fill it in, drop their photo in
+#  assets/images/ and point "photo" at it. Leave "photo" blank for
+#  a placeholder icon. Delete the placeholder entries once you have
+#  real members. Order within each group is the order they appear.
+# ============================================================
+
+pi:
+  - name: Dr Kate Beckham
+    role: Royal Society URF · NuAcT Fellow · Group Leader
+    photo:            # e.g. kate-beckham.jpg
+    bio: >-
+      Kate is a structural biologist studying how bacteria assemble and cross
+      their cell envelope. She holds a Royal Society University Research
+      Fellowship in the Newcastle University Biosciences Institute, where she
+      leads an independent group on mycobacterial secretion systems and
+      outer-membrane transport proteins. Before Newcastle she was a Staff
+      Scientist and postdoctoral fellow at EMBL Hamburg (2014–2023), following a
+      PhD in Molecular Microbiology at the University of Glasgow and a degree in
+      Molecular Biology at the University of St Andrews. Her work combines
+      cryo-EM, microbiology and biochemistry to turn structures into mechanism.
+    links:
+      - label: Google Scholar
+        url: https://scholar.google.com/citations?user=end6XcEAAAAJ&hl=en
+      - label: Bluesky
+        url: https://bsky.app/profile/kshbeckham.bsky.social
+
+postdocs:
+  - name: "[Postdoc name]"
+    role: Postdoctoral Researcher
+    photo:
+    bio: >-
+      Short bio: research focus, background, and a line of personality.
+
+phd:
+  - name: "[Student name]"
+    role: PhD Student
+    photo:
+    bio: >-
+      Working on PiuB, a multidomain transmembrane protein involved in bacterial
+      iron uptake, using cryo-EM.
+  - name: "[Student name]"
+    role: PhD Student
+    photo:
+    bio: >-
+      Short bio and project summary goes here.
+
+masters:
+  - name: "[Student name]"
+    role: MSc / MBiol Student
+    photo:
+    bio: >-
+      Short bio and project summary goes here.

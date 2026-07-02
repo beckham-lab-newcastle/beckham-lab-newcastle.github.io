@@ -1,0 +1,37 @@
+# ============================================================
+#  Funding & awards
+#  "funders" appears as a strip of badges (swap for logos later:
+#  set "logo" to an image in assets/images/ to show it instead of text).
+#  "awards" is the fuller honours list.
+# ============================================================
+
+funders:
+  - name: Royal Society
+    note: University Research Fellowship
+    logo:
+  - name: Royal Society
+    note: Research Grant
+    logo:
+  - name: Newcastle University
+    note: NUAcT Fellowship
+    logo:
+
+awards:
+  - year: 2025
+    text: Royal Society Research Grant
+  - year: 2024
+    text: Royal Society University Research Fellowship
+  - year: 2023
+    text: NUAcT Fellowship (Ageing and Health) — Newcastle University
+  - year: 2018
+    text: Jürgen Wehland Award — Helmholtz Centre for Infection Research
+  - year: 2018
+    text: Add-on Fellowship for Interdisciplinary Science — Joachim-Herz Stiftung
+  - year: 2016
+    text: COST Action BM1403 Experiment Grant — University of Antwerp
+  - year: 2014
+    text: EMBL Interdisciplinary Post-doctoral Fellowship — Marie Curie Actions & EMBL
+  - year: 2014
+    text: Sponsorship to attend 64th Lindau Nobel Laureate Meeting — The Royal Society
+  - year: 2009
+    text: Doctoral Fellowship — The Wellcome Trust

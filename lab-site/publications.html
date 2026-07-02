@@ -1,0 +1,36 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Selected and full publication list from the Beckham Lab.
+---
+
+<div class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow mono">Publications</div>
+    <h1>Publications</h1>
+    <p>A full list of the group's work. For the most current record, see
+      {% if site.social.scholar %}<a href="{{ site.social.scholar }}">Google Scholar</a>{% else %}Google Scholar{% endif %}.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    {% for pub in site.data.publications %}
+      <div class="pub">
+        <div class="year">{{ pub.year }}</div>
+        <div>
+          {% if pub.venue %}<div class="venue">{{ pub.venue }}</div>{% endif %}
+          <h3>{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+          <p class="authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+      </div>
+    {% endfor %}
+
+    {% if site.social.scholar %}
+    <div class="pub-links">
+      <a href="{{ site.social.scholar }}">Google Scholar →</a>
+    </div>
+    {% endif %}
+  </div>
+</section>

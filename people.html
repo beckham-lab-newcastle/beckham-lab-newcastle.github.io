@@ -1,0 +1,69 @@
+---
+layout: default
+title: People
+permalink: /people/
+description: The Beckham Lab group — structural biologists working across cryo-EM, microbiology and membrane biochemistry.
+---
+
+<div class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow mono">People</div>
+    <h1>The group</h1>
+    <p>We're a structural biology group within the Microbes in Health and Disease theme at Newcastle, working at the interface of cryo-EM, microbiology and membrane biochemistry.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+
+    <!-- Principal Investigator -->
+    <div class="role-block">
+      <div class="role-label"><h2>Principal Investigator</h2></div>
+      {% for m in site.data.people.pi %}
+        <div class="person pi">
+          <div class="photo">
+            {% if m.photo %}<img src="{{ '/assets/images/' | append: m.photo | relative_url }}" alt="{{ m.name }}">
+            {% else %}<svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" fill="#0F5257"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="#0F5257"/></svg>{% endif %}
+          </div>
+          <div>
+            <h3>{{ m.name }}</h3>
+            <div class="prole">{{ m.role }}</div>
+            <p>{{ m.bio }}</p>
+            {% if m.links %}<div class="plinks">{% for l in m.links %}<a href="{{ l.url }}">{{ l.label }} →</a>{% endfor %}</div>{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Postdocs -->
+    {% if site.data.people.postdocs and site.data.people.postdocs.size > 0 %}
+    <div class="role-block">
+      <div class="role-label"><h2>Postdoctoral Researchers</h2></div>
+      <div class="people-grid">
+        {% for m in site.data.people.postdocs %}{% include person-card.html m=m %}{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- PhD students -->
+    {% if site.data.people.phd and site.data.people.phd.size > 0 %}
+    <div class="role-block">
+      <div class="role-label"><h2>PhD Students</h2></div>
+      <div class="people-grid">
+        {% for m in site.data.people.phd %}{% include person-card.html m=m %}{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Masters students -->
+    {% if site.data.people.masters and site.data.people.masters.size > 0 %}
+    <div class="role-block">
+      <div class="role-label"><h2>Master's Students</h2></div>
+      <div class="people-grid">
+        {% for m in site.data.people.masters %}{% include person-card.html m=m %}{% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>

@@ -1,0 +1,79 @@
+# ============================================================
+#  Publications
+#  Newest first. To add one, copy a block to the top.
+#  Put the lab author(s) in **double asterisks** to bold them,
+#  e.g. "Smith J, **Beckham KSH**, Jones A".
+#  "link" is optional (DOI or publisher page).
+# ============================================================
+
+- year: 2022
+  authors: "Zambelloni R, **Beckham KSH**, Wu HJ, Elofsson M, Marquez R, Gabrielsen M, Roe AJ"
+  title: "Crystal structures of WrbA, a spurious target of the salicylidene acylhydrazide inhibitors of type III secretion in Gram-negative pathogens, and verification of improved specificity of next-generation compounds"
+  venue: "Microbiology 168(7)"
+  link: https://eprint.ncl.ac.uk/293925
+
+- year: 2022
+  authors: "Paulowski L, **Beckham KSH**, Johansen MD, et al."
+  title: "C25-modified rifamycin derivatives with improved activity against Mycobacterium abscessus"
+  venue: "PNAS Nexus 1(4), pgac130"
+  link: https://eprint.ncl.ac.uk/293923
+
+- year: 2021
+  authors: "**Beckham KSH**, Ritter C, Chojnowski G, Ziemianowicz DS, Mullapudi E, Rettel M, Savitski MM, Mortensen SA, Kosinski J, Wilmanns M"
+  title: "Structure of the mycobacterial ESX-5 type VII secretion system pore complex"
+  venue: "Science Advances 7(26), eabg9923"
+  link: https://eprint.ncl.ac.uk/293928
+
+- year: 2021
+  authors: "Lagune M, Petit C, Sotomayor FV, Johansen MD, **Beckham KSH**, Ritter C, Girard Misguich F, Wilmanns M, Kremer L, Maurer FP, Herrmann JL"
+  title: "Conserved and specialized functions of Type VII secretion systems in non-tuberculous mycobacteria"
+  venue: "Microbiology 167(7), 001054"
+  link: https://eprint.ncl.ac.uk/293927
+
+- year: 2020
+  authors: "**Beckham KSH**, Staack S, Wilmanns M, Parret AHA"
+  title: "The pMy vector series: a versatile cloning platform for the recombinant production of mycobacterial proteins in Mycobacterium smegmatis"
+  venue: "Protein Science"
+  link:
+
+- year: 2020
+  authors: "Crosskey TD, **Beckham KSH**, Wilmanns M"
+  title: "The ATPases of the mycobacterial type VII secretion system: structural and mechanistic insights into secretion"
+  venue: "Progress in Biophysics and Molecular Biology"
+  link:
+
+- year: 2019
+  authors: "Freire DM, Gutierrez C, Garza-Garcia A, et al. (incl. **Beckham KSH**)"
+  title: "An NAD+ phosphorylase toxin triggers Mycobacterium tuberculosis cell death"
+  venue: "Molecular Cell"
+  link:
+
+- year: 2017
+  authors: "**Beckham KSH**, Ciccarelli L, Bunduc CM, Mertens HDT, Ummels R, Lugmayr W, Mayr J, Rettel M, Savitski MM, Svergun DI, Bitter W, Wilmanns M, Marlovits TC, Parret AHA, Houben ENG"
+  title: "Structure of the mycobacterial ESX-5 type VII secretion system membrane complex by single-particle analysis"
+  venue: "Nature Microbiology"
+  link:
+
+- year: 2014
+  authors: "**Beckham KSH**, Connolly JPR, Ritchie JM, Wang D, Gawthorne JA, Tahoun A, Gally DL, Burgess K, Burchmore RJ, Smith BO, Beatson SA, Byron O, Wolfe AJ, Douce GR, Roe AJ"
+  title: "The metabolic enzyme AdhE controls the virulence of Escherichia coli O157:H7"
+  venue: "Molecular Microbiology 93(1), 199–211"
+  link: https://eprint.ncl.ac.uk/260317
+
+- year: 2014
+  authors: "Scott CL, Zangerle Murray TFP, **Beckham KSH**, Douce G, Mowat AM"
+  title: "Signal regulatory protein alpha (SIRPα) regulates the homeostasis of CD103+CD11b+ DCs in the intestinal lamina propria"
+  venue: "European Journal of Immunology"
+  link:
+
+- year: 2014
+  authors: "**Beckham KSH**, Roe AJ"
+  title: "From screen to target: insights and approaches for the development of anti-virulence compounds"
+  venue: "Frontiers in Cellular and Infection Microbiology"
+  link:
+
+- year: 2012
+  authors: "Gawthorne JA, Reddick LE, Akpunarlieva SN, **Beckham KSH**, Christie JM, Alto NM"
+  title: "Express your LOV: an engineered flavoprotein as a reporter for protein expression and purification"
+  venue: "PLoS ONE"
+  link:

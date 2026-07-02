@@ -1,0 +1,12 @@
+<div class="person">
+  <div class="photo">
+    {% if include.m.photo %}<img src="{{ '/assets/images/' | append: include.m.photo | relative_url }}" alt="{{ include.m.name }}">
+    {% else %}<svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" fill="#9aa39f"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="#9aa39f"/></svg>{% endif %}
+  </div>
+  <div>
+    <h3>{{ include.m.name }}</h3>
+    <div class="prole">{{ include.m.role }}</div>
+    <p>{{ include.m.bio }}</p>
+    {% if include.m.links %}<div class="plinks">{% for l in include.m.links %}<a href="{{ l.url }}">{{ l.label }} →</a>{% endfor %}</div>{% endif %}
+  </div>
+</div>

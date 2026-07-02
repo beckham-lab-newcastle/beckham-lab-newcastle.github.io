@@ -1,0 +1,16 @@
+{% comment %}Renders a post thumbnail: uses post.image if set, otherwise a default SVG.{% endcomment %}
+{% if include.post.image %}
+  <img src="{{ include.post.image | relative_url }}" alt="{{ include.post.title }}">
+{% else %}
+  <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <rect width="320" height="200" fill="#0B2426"/>
+    <rect x="0" y="70" width="320" height="26" fill="#12494E"/>
+    <rect x="0" y="104" width="320" height="26" fill="#12494E"/>
+    <g stroke="#5FA8AE" stroke-width="2">
+      <line x1="30" y1="70" x2="30" y2="130"/><line x1="70" y1="70" x2="70" y2="130"/>
+      <line x1="250" y1="70" x2="250" y2="130"/><line x1="290" y1="70" x2="290" y2="130"/>
+    </g>
+    <rect x="130" y="58" width="60" height="84" rx="14" fill="#0F5257" stroke="#188087" stroke-width="2"/>
+    <circle cx="160" cy="100" r="7" fill="#C68A2E"/>
+  </svg>
+{% endif %}

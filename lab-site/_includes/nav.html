@@ -1,0 +1,18 @@
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="{{ '/' | relative_url }}" class="brand">
+      {% include glyph.svg %}
+      {{ site.title }}
+    </a>
+    <nav class="nav-links" id="navlinks" aria-label="Primary">
+      {% for item in site.data.navigation %}
+        {% assign is_active = false %}
+        {% if item.url == "/" and page.url == "/" %}{% assign is_active = true %}{% endif %}
+        {% if item.url != "/" and item.url != "/#contact" and page.url contains item.url %}{% assign is_active = true %}{% endif %}
+        <a href="{{ item.url | relative_url }}"{% if is_active %} class="active" aria-current="page"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu"
+      onclick="document.getElementById('navlinks').classList.toggle('open')">Menu</button>
+  </div>
+</header>

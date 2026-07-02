@@ -1,0 +1,16 @@
+# Edit this list to change the top navigation.
+# "url" is relative to the site root.
+- name: Home
+  url: /
+- name: News
+  url: /news/
+- name: Research
+  url: /research/
+- name: People
+  url: /people/
+- name: Publications
+  url: /publications/
+- name: Funding
+  url: /funding/
+- name: Contact
+  url: /#contact

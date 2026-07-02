@@ -1,0 +1,32 @@
+---
+layout: default
+title: News
+permalink: /news/
+description: News and updates from the Beckham Lab.
+---
+
+<div class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow mono">News</div>
+    <h1>News</h1>
+    <p>Papers, people, grants and the occasional away day.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="news-grid">
+      {% for post in site.posts %}
+        <article class="ncard">
+          <div class="thumb">{% include thumb.html post=post %}</div>
+          <div class="body">
+            <div class="date">{{ post.date | date: "%-d %b %Y" }}</div>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+            <a href="{{ post.url | relative_url }}" class="more">Read more →</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
