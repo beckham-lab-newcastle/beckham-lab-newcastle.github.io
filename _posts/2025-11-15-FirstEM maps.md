@@ -6,4 +6,4 @@ date: 2025-11-15
 
 
 
-Puttin the new Tundra to good use :).
+Putting the new Tundra to good use :).
