@@ -7,14 +7,14 @@
 
 funders:
   - name: Royal Society
-    note: University Research Fellowship
-    logo:
-  - name: Royal Society
-    note: Research Grant
-    logo:
-  - name: Newcastle University
+    note: University Research Fellowship & Research Grant
+    logo: royal-society.png
+  - name: Newcastle University (NUAcT)
     note: NUAcT Fellowship
-    logo:
+    logo: nuact.png
+  - name: EPSRC
+    note: Engineering and Physical Sciences Research Council
+    logo: epsrc.png
 
 awards:
   - year: 2025
