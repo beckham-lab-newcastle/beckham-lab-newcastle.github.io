@@ -4,10 +4,10 @@
 # ============================================================
 
 title: Beckham Lab
-tagline: "How bacteria build and cross the membranes that keep them alive"
+tagline: "Membrane transport systems in mycobacteria"
 description: >-
-  The Beckham Lab at Newcastle University uses cryo-EM to reveal the transport
-  machinery of the bacterial cell envelope — and how pathogens exploit it.
+  The Beckham Lab at Newcastle University uses strucutral biology to understand the transport
+  machinery and mechanisms used by mycobacteria.
 
 # --- Owner / contact (used in the footer and contact section) ---
 pi_name: Dr Kate Beckham
@@ -21,7 +21,6 @@ address_line_3: Newcastle upon Tyne, NE2 4HH, UK
 # --- Social links (leave blank to hide) ---
 social:
   bluesky: https://bsky.app/profile/kshbeckham.bsky.social
-  twitter: https://twitter.com/kshbeckham
   scholar: https://scholar.google.com/citations?user=end6XcEAAAAJ&hl=en
   university: https://www.ncl.ac.uk/cbcb/staff/profile/katebeckham.html
 
