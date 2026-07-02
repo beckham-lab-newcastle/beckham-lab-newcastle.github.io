@@ -35,15 +35,15 @@ description: The Beckham Lab group — structural biologists working across cryo
       {% endfor %}
     </div>
 
-    <!-- Postdocs -->
-    {% if site.data.people.postdocs and site.data.people.postdocs.size > 0 %}
-    <div class="role-block">
-      <div class="role-label"><h2>Postdoctoral Researchers</h2></div>
-      <div class="people-grid">
-        {% for m in site.data.people.postdocs %}{% include person-card.html m=m %}{% endfor %}
-      </div>
-    </div>
-    {% endif %}
+#    <!-- Postdocs -->
+#    {% if site.data.people.postdocs and site.data.people.postdocs.size > 0 %}
+#    <div class="role-block">
+#      <div class="role-label"><h2>Postdoctoral Researchers</h2></div>
+#      <div class="people-grid">
+#        {% for m in site.data.people.postdocs %}{% include person-card.html m=m %}{% endfor %}
+#      </div>
+#   </div>
+#    {% endif %}
 
     <!-- PhD students -->
     {% if site.data.people.phd and site.data.people.phd.size > 0 %}
