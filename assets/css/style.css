@@ -202,7 +202,7 @@ h2{font-family:var(--font-display);font-weight:700;font-size:clamp(1.7rem,3.4vw,
 .funder:hover{border-color:var(--aqua);transform:translateY(-2px);}
 .funder small{display:block;font-family:var(--font-mono);font-weight:400;font-size:.6rem;letter-spacing:.05em;
   text-transform:uppercase;color:var(--stone);margin-top:8px;line-height:1.4;}
-.funder img{max-height:52px;width:auto;}
+.funder img{max-height:46px;max-width:180px;width:auto;height:auto;}
 .awards{list-style:none;padding:0;margin:0;max-width:72ch;}
 .awards li{display:grid;grid-template-columns:64px 1fr;gap:18px;padding:13px 0;border-bottom:1px solid var(--line);}
 .awards li .ayear{font-family:var(--font-mono);font-size:.85rem;color:var(--teal);}
