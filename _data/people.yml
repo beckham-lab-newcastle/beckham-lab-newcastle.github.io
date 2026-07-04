@@ -1,15 +1,15 @@
 # ============================================================
 #  Group members
 #  To add someone: copy a block, fill it in, drop their photo in
-#  assets/images/ and point "photo" at it. Leave "photo" blank for
-#  a placeholder icon. Delete the placeholder entries once you have
-#  real members. Order within each group is the order they appear.
+#  assets/images/ and point "photo" at the filename. Leave "photo"
+#  blank for a placeholder icon. Order within a group = display order.
+#  Hide a whole section by setting it empty, e.g.  postdocs: []
 # ============================================================
 
 pi:
   - name: Dr Kate Beckham
     role: Royal Society URF · NuAcT Fellow · Group Leader
-    photo:            # e.g. kate-beckham.jpg
+    photo: kate-beckham.jpg
     bio: >-
       Kate is a structural biologist studying how bacteria assemble and cross
       their cell envelope. She holds a Royal Society University Research
@@ -26,28 +26,18 @@ pi:
       - label: Bluesky
         url: https://bsky.app/profile/kshbeckham.bsky.social
 
-#postdocs:
-  - name: "[Postdoc name]"
-    role: Postdoctoral Researcher
-    photo:
-    bio: >-
-      Short bio: research focus, background, and a line of personality.
+postdocs: []
 
 phd:
-  - name: "[Aaron Scott]"
+  - name: Aaron Scott
     role: PhD Student
     photo:
     bio: >-
-      Working on mycobacterial outermembrane proteins using cryo-EM.
-  - name: "[Harry Flower]"
+      Working on mycobacterial outer membrane proteins using cryo-EM.
+  - name: Harry Flower
     role: PhD Student
     photo:
     bio: >-
-     Working on mycobacterial outermembrane proteins using cryo-EM. 
+      Working on mycobacterial outer membrane proteins using cryo-EM.
 
-#masters:
-  - name: "[Student name]"
-    role: MSc / MBiol Student
-    photo:
-    bio: >-
-      Short bio and project summary goes here.
+masters: []
