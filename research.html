@@ -5,40 +5,96 @@ permalink: /research/
 description: Transport across the mycomembrane.
 ---
 
+<style>
+  .theme{max-width:70ch;}
+  .theme .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
+  .feature{display:grid;gap:40px;align-items:center;background:var(--card);
+    border:1px solid var(--line);border-radius:16px;padding:34px;}
+  .feature.t7ss{grid-template-columns:240px 1fr;}
+  .feature.tools{grid-template-columns:1fr 360px;}
+  .feature p{margin:0 0 16px;color:#33423f;}
+  .feature img{width:100%;border-radius:10px;border:1px solid var(--line);background:#fff;display:block;}
+  .feature.t7ss img{max-width:200px;margin:0 auto;padding:8px;}
+  .feature.tools img{max-width:340px;padding:10px;}
+  .feature .btns{margin-top:22px;}
+  .subkicker{color:var(--gold);margin:26px 0 4px;}
+  .reflist{list-style:none;padding:0;margin:10px 0 0;}
+  .reflist li{padding:12px 0;border-top:1px solid var(--line);font-size:.95rem;line-height:1.5;color:#3a4744;}
+  .reflist li:first-child{border-top:none;padding-top:2px;}
+  .reflist .ry{font-family:var(--font-mono);color:var(--teal);font-size:.78rem;margin-right:8px;}
+  @media(max-width:760px){ .feature.t7ss,.feature.tools{grid-template-columns:1fr;gap:24px;padding:28px 24px;} }
+</style>
+
 <div class="page-hero">
   <div class="wrap">
     <div class="eyebrow mono">Research</div>
     <h1>Transport machinery of the mycobacterial cell envelope</h1>
-    <p>The bacterial envelope is a fortress of lipids and proteins. We work out — at near-atomic resolution — to understand how mycobacteria transport substances across this complex barrier.</p>
+    <p>The bacterial envelope is a fortress of lipids and proteins. We work at near-atomic resolution to understand how mycobacteria move substances across this complex barrier.</p>
   </div>
 </div>
 
 <section>
   <div class="wrap">
-    <div class="prose" style="margin-bottom:56px;">
+    <div class="prose" style="max-width:70ch;">
       <p>Mycobacteria include some of the world's deadliest pathogens, with <em>Mycobacterium tuberculosis</em> responsible for over a million deaths every year. Despite their importance, we still understand very little about how mycobacteria move substances across their unusual, multi-layered cell membrane.</p>
       <p>Our aim is to discover and characterise the proteins that reside in the mycobacterial outer membrane. By combining structural biology, microbiology and biochemistry, we uncover the molecular mechanisms behind the transport of molecules in and out of the cell — and, in the longer term, hope this opens new avenues for antibiotic discovery.</p>
     </div>
+  </div>
+</section>
 
-    <div class="research-grid">
-      <article class="rcard">
-        <div class="rnum">/ 01</div>
-        <h3>Outer membrane transporters </h3>
-        <p>The identifcation and characteisation of classes of understudied mycobcactieral outer membrane proteins (MOMPS) the primary focus of the group. </p>
-        <div class="tags"><span class="tag">MOMPS</span><span class="tag data">3.2 Å dimer</span></div>
-      </article>
-      <article class="rcard">
-        <div class="rnum">/ 03</div>
-        <h3>`Tools for working with mycobacteria</h3>
-        <p>We have developed a number of protein expression vectors for use in <em>M. smegmatis</em>, out workhorse for producing mycobcaterial proteins. </p>
-        <div class="tags"><span class="tag">Aryl polyenes</span><span class="tag">Lipid chaperones</span></div>
-      </article>
-      <article class="rcard">
-        <div class="rnum">/ 03</div>
-        <h3>Mycobacterial secretion systems</h3>
-        <p> My previous research focused on the structure and function of the mycobacterial type VII secretion system. This machinery that lets <em>M. tuberculosis</em> establish infection and obtaining molecualr details of these proceses may provide novel aveunes for drug development.</p>
-        <div class="tags"><span class="tag">Cryo-EM</span><span class="tag">Type VII secretion</span></div>
-      </article>
+<section class="alt">
+  <div class="wrap">
+    <div class="theme">
+      <div class="sec-kicker mono" data-n="01">Research</div>
+      <h2>Outer membrane transporters</h2>
+      <p>The identification and characterisation of understudied classes of mycobacterial outer membrane proteins (MOMPs) is the primary focus of the group.</p>
+      <div class="tags"><span class="tag">Cryo-EM</span><span class="tag">MOMPs</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:28px;">
+      <div class="sec-kicker mono" data-n="02">Research</div>
+      <h2>Type VII secretion systems</h2>
+    </div>
+    <div class="feature t7ss">
+      <figure style="margin:0;">
+        <img src="{{ '/assets/images/t7ss-structure.jpg' | relative_url }}" alt="Cryo-EM structure of the mycobacterial ESX-5 type VII secretion system: the membrane complex (green) with a secreted substrate (orange).">
+      </figure>
+      <div>
+        <p>My earlier research focused on the structure and function of the mycobacterial type VII secretion (T7SS / ESX) systems — the machinery that moves proteins across the mycobacterial envelope and lets <em>M. tuberculosis</em> establish infection. Using cryo-EM and single-particle analysis we determined structures of the ESX-5 membrane and pore complexes, revealing how these machines are built and how they might be targeted for drug development.</p>
+        <div class="subkicker mono">Selected publications</div>
+        <ul class="reflist">
+          <li><span class="ry">2021</span> Beckham KSH, Ritter C, Chojnowski G, et al. <a href="https://www.science.org/doi/10.1126/sciadv.abg9923">Structure of the mycobacterial ESX-5 type VII secretion system pore complex.</a> <em>Science Advances</em>.</li>
+          <li><span class="ry">2021</span> Lagune M, Petit C, Vásquez Sotomayor F, Johansen MD, Beckham KSH, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/34224347/">Conserved and specialized functions of Type VII secretion systems in non-tuberculous mycobacteria.</a> <em>Microbiology</em>.</li>
+          <li><span class="ry">2020</span> Crosskey TD, Beckham KSH, Wilmanns M. <a href="https://pubmed.ncbi.nlm.nih.gov/31765647/">The ATPases of the mycobacterial type VII secretion system: structural and mechanistic insights into secretion.</a> <em>Progress in Biophysics and Molecular Biology</em>.</li>
+          <li><span class="ry">2017</span> Beckham KSH, Ciccarelli L, Bunduc CM, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/28394313/">Structure of the mycobacterial ESX-5 type VII secretion system membrane complex by single-particle analysis.</a> <em>Nature Microbiology</em>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-kicker mono">Tools &amp; resources</div>
+      <h2>Tools for working with mycobacteria</h2>
+    </div>
+    <div class="feature tools">
+      <div>
+        <p>We have developed a series of protein-expression vectors — the <strong>pMy vector series</strong> — for producing mycobacterial proteins in <em>M. smegmatis</em>, our workhorse expression host.</p>
+        <p>The plasmids are freely available through Addgene, and are described in full in our <em>Protein Science</em> paper.</p>
+        <div class="btns">
+          <a class="btn btn-primary" href="https://www.addgene.org/browse/article/6201/">Get the vectors on Addgene →</a>
+          <a class="btn btn-ghost" href="https://pubmed.ncbi.nlm.nih.gov/33006405/">Read the paper →</a>
+        </div>
+      </div>
+      <figure style="margin:0;">
+        <img src="{{ '/assets/images/pmy-vectors.png' | relative_url }}" alt="The pMy vector series: eight plasmid maps — pMyNT, pMyC, pMyBADNT and pMyBADC, each with a kanamycin-resistance variant.">
+      </figure>
     </div>
   </div>
 </section>
