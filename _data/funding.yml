@@ -17,6 +17,8 @@ funders:
     logo: epsrc.png
 
 awards:
+  - year: 2026
+    text: Engineering and Physical Sciences Research Council - Impact Acceleration Account
   - year: 2025
     text: Royal Society Research Grant
   - year: 2024
