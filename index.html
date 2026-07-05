@@ -7,8 +7,8 @@ layout: default
   <div class="wrap hero-inner">
     <div class="hero-text">
       <div class="eyebrow mono">{{ site.institution }} · Microbes in Health &amp; Disease</div>
-      <h1 class="hero-title">Transport accross the mycobacterial membrane</h1>
-      <p class="hero-lede">We use strucutral biology to elucidate the molecular mechanisms involved in trasport across the mycomembrane.</p>
+      <h1 class="hero-title">Transport across the mycobacterial membrane</h1>
+      <p class="hero-lede">We use structural biology to elucidate the molecular mechanisms involved in transport across the mycomembrane.</p>
       <div class="hero-meta">
         <span class="chip">Cryo-EM</span>
         <span class="chip">Membrane transport</span>
@@ -92,6 +92,50 @@ layout: default
         </svg>
         <figcaption>Understanding transport across the <b>mycomembrane</b></figcaption>
       </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RESEARCH TOPICS ===== -->
+<style>
+  a.topic{display:flex;flex-direction:column;text-decoration:none;color:inherit;
+    background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 26px;
+    transition:border-color .2s ease,transform .2s ease,box-shadow .2s ease;}
+  a.topic:hover{border-color:var(--aqua);transform:translateY(-3px);
+    box-shadow:0 18px 40px -30px rgba(11,36,38,.5);}
+  a.topic .rnum{font-family:var(--font-mono);color:var(--aqua);font-size:.8rem;margin-bottom:18px;}
+  a.topic h3{font-family:var(--font-display);font-weight:600;font-size:1.18rem;line-height:1.22;
+    margin:0 0 12px;color:var(--ink);}
+  a.topic p{font-size:1rem;color:#33423f;margin:0 0 20px;}
+  a.topic .go{margin-top:auto;font-family:var(--font-display);font-weight:600;font-size:.86rem;color:var(--teal);}
+  a.topic:hover .go{color:var(--gold);}
+</style>
+<section class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-kicker mono">Research</div>
+      <h2>What we work on</h2>
+      <p>Three strands of work on how mycobacteria build and cross their cell envelope.</p>
+    </div>
+    <div class="research-grid">
+      <a class="topic" href="{{ '/research/#outer-membrane' | relative_url }}">
+        <div class="rnum">/ 01</div>
+        <h3>Outer membrane transporters</h3>
+        <p>Discovering and characterising understudied mycobacterial outer membrane proteins.</p>
+        <span class="go">Learn more →</span>
+      </a>
+      <a class="topic" href="{{ '/research/#t7ss' | relative_url }}">
+        <div class="rnum">/ 02</div>
+        <h3>Type VII secretion systems</h3>
+        <p>Cryo-EM structures of the ESX machinery that moves proteins across the envelope.</p>
+        <span class="go">Learn more →</span>
+      </a>
+      <a class="topic" href="{{ '/research/#tools' | relative_url }}">
+        <div class="rnum">/ 03</div>
+        <h3>Tools for mycobacteria</h3>
+        <p>Expression vectors and resources we've built and shared with the community.</p>
+        <span class="go">Learn more →</span>
+      </a>
     </div>
   </div>
 </section>
