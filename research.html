@@ -6,23 +6,25 @@ description: Transport across the mycomembrane.
 ---
 
 <style>
-  .theme{max-width:70ch;}
-  .theme .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
+  #outer-membrane,#t7ss,#tools{ scroll-margin-top:84px; }
   .feature{display:grid;gap:40px;align-items:center;background:var(--card);
     border:1px solid var(--line);border-radius:16px;padding:34px;}
+  .feature.om{grid-template-columns:1fr 360px;}
   .feature.t7ss{grid-template-columns:240px 1fr;}
   .feature.tools{grid-template-columns:1fr 360px;}
   .feature p{margin:0 0 16px;color:#33423f;}
   .feature img{width:100%;border-radius:10px;border:1px solid var(--line);background:#fff;display:block;}
+  .feature.om img{max-width:360px;padding:6px;}
   .feature.t7ss img{max-width:200px;margin:0 auto;padding:8px;}
   .feature.tools img{max-width:340px;padding:10px;}
+  .feature .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
   .feature .btns{margin-top:22px;}
   .subkicker{color:var(--gold);margin:26px 0 4px;}
   .reflist{list-style:none;padding:0;margin:10px 0 0;}
   .reflist li{padding:12px 0;border-top:1px solid var(--line);font-size:.95rem;line-height:1.5;color:#3a4744;}
   .reflist li:first-child{border-top:none;padding-top:2px;}
   .reflist .ry{font-family:var(--font-mono);color:var(--teal);font-size:.78rem;margin-right:8px;}
-  @media(max-width:760px){ .feature.t7ss,.feature.tools{grid-template-columns:1fr;gap:24px;padding:28px 24px;} }
+  @media(max-width:760px){ .feature.om,.feature.t7ss,.feature.tools{grid-template-columns:1fr;gap:24px;padding:28px 24px;} }
 </style>
 
 <div class="page-hero">
@@ -42,18 +44,25 @@ description: Transport across the mycomembrane.
   </div>
 </section>
 
-<section class="alt">
+<section class="alt" id="outer-membrane">
   <div class="wrap">
-    <div class="theme">
+    <div class="sec-head" style="margin-bottom:28px;">
       <div class="sec-kicker mono" data-n="01">Research</div>
       <h2>Outer membrane transporters</h2>
-      <p>The identification and characterisation of understudied classes of mycobacterial outer membrane proteins (MOMPs) is the primary focus of the group.</p>
-      <div class="tags"><span class="tag">Cryo-EM</span><span class="tag">MOMPs</span></div>
+    </div>
+    <div class="feature om">
+      <div>
+        <p>The identification and characterisation of understudied classes of mycobacterial outer membrane proteins (MOMPs) is the primary focus of the group.</p>
+        <div class="tags"><span class="tag">Cryo-EM</span><span class="tag">MOMPs</span></div>
+      </div>
+      <figure style="margin:0;">
+        <img src="{{ '/assets/images/outer-membrane-placeholder.jpg' | relative_url }}" alt="Schematic of the mycobacterial cell envelope (placeholder image).">
+      </figure>
     </div>
   </div>
 </section>
 
-<section>
+<section id="t7ss">
   <div class="wrap">
     <div class="sec-head" style="margin-bottom:28px;">
       <div class="sec-kicker mono" data-n="02">Research</div>
@@ -77,7 +86,7 @@ description: Transport across the mycomembrane.
   </div>
 </section>
 
-<section class="alt">
+<section class="alt" id="tools">
   <div class="wrap">
     <div class="sec-head">
       <div class="sec-kicker mono">Tools &amp; resources</div>
