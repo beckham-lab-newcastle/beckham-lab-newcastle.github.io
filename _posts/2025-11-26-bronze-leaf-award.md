@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beckham Lab awarded a Bronze LEAF Award"
-date: 2026-06-15
+date: 2025-11-26
 image: /assets/images/leaf-bronze-award.jpg
 ---
 
