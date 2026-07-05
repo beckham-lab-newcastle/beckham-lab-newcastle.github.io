@@ -5,7 +5,7 @@ date: 2025-11-15
 image: /assets/images/em-map-poster.jpg
 ---
 
-Our first cryo-EM maps for the group — putting the new Tundra to good use :)
+Our first cryo-EM maps for the group — making use of the new Tundra that is now up and running in the NUSBF facility. Looking forward to the next dataset :)
 
 <video autoplay loop muted playsinline preload="metadata"
        poster="{{ '/assets/images/em-map-poster.jpg' | relative_url }}"
