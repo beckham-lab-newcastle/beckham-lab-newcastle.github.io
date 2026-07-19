@@ -31,9 +31,13 @@ postdocs: []
 phd:
   - name: Aaron Scott
     role: PhD Student
-    photo:
+    photo: aaron-scott.jpg
     bio: >-
-      Working on mycobacterial outer membrane proteins using cryo-EM.
+      Aaron is a PhD student exploring novel outer membrane proteins in
+      mycobacteria. His approach combines cryo-EM and biophysical techniques with
+      bioinformatics, functional assays and -omics screens. Before starting in the
+      Beckham lab, he investigated Gram-positive protein secretion systems and
+      related machineries during his Integrated Masters at Newcastle.
   - name: Harry Flower
     role: PhD Student
     photo: harry-flower.jpg
