@@ -36,8 +36,16 @@ phd:
       Working on mycobacterial outer membrane proteins using cryo-EM.
   - name: Harry Flower
     role: PhD Student
-    photo:
+    photo: harry-flower.jpg
     bio: >-
-      Working on mycobacterial outer membrane proteins using cryo-EM.
+      Harry grew up in Southwest Scotland and carried out both his BSc and MSc at
+      the University of St Andrews, before moving to Newcastle in October 2025 to
+      begin his PhD. He is interested in diderm bacteria and the role that outer
+      membrane proteins play in physiology, virulence, and antimicrobial
+      resistance. His research is currently focussed on the structural and
+      functional characterisation of mycobacterial outer membrane proteins,
+      combining microbiological, biochemical, and biophysical techniques with the
+      ultimate goal of determining their structures using X-ray crystallography
+      or cryo-EM to help elucidate mechanisms of transport.
 
 masters: []
